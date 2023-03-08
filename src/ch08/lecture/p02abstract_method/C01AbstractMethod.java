@@ -1,11 +1,9 @@
 package ch08.lecture.p02abstract_method;
 
-import ch06.lecture.p10access.*;
-
 public class C01AbstractMethod {
 	public static void main(String[] args) {
-		MyClass01 o1=new MyClass01();
-		MyInterface01 o2= o1;
+		MyClass01 o1 = new MyClass01();
+		MyInterface01 o2 = o1;
 		
 		MyInterface01 o3 = new MyClass01();
 		
@@ -19,6 +17,13 @@ public class C01AbstractMethod {
 		System.out.println();
 		
 		o2.method1();
-//		o2.method2();/xx
+//		o2.method2(); // xx
 	}
 }
+
+
+
+
+
+
+

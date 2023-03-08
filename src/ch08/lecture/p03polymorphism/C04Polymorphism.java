@@ -7,10 +7,12 @@ public class C04Polymorphism {
 		arr[1] = "hello";
 		arr[2] = new StringBuffer("world");
 		arr[3] = new StringBuilder("spring");
-
+		
 		char c1 = arr[0].charAt(0);
-		char c2 = arr[1].charAt(1);
-		char c3 = arr[2].charAt(2);
-		char c4 = arr[3].charAt(3);
+		char c2 = arr[1].charAt(0);
+		char c3 = arr[2].charAt(0);
+		char c4 = arr[3].charAt(0);
+		
+		
 	}
 }

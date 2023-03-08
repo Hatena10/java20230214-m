@@ -5,7 +5,8 @@ public class SoundableExample {
 		printSound(new Dog());
 		printSound(new Cat());
 	}
-	public static void main(Soundable soundable) {
+	
+	public static void printSound(Soundable soundable) {
 		System.out.println(soundable.sound());
 	}
 }
